@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/*navBar*/
+.navBar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navBar a{
+    padding:15px;
+    display:block;
+}
+
+.navBar a:hover{
+    background-color: beige;
+}
+.navBar li{
+    float: left;
+}
+.nav-link {
+    margin-right: 15px;
+}
+
+/*mainUserDisplay*/
+
+
+/*progressTracking*/
+.progressTracking {
+    background-color: burlywood;
+    padding: 1rem;
+    border-radius: 10px;
+}
