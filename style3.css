@@ -3,6 +3,7 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
+    background-color: #71af8d;
 }
 
 /*navBar*/
@@ -29,6 +30,29 @@ body {
 }
 
 /*mainUserDisplay*/
+.profile-header {
+    display: flex;
+    align-items: center;
+}
+
+.pfp-logo{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid blue;
+    margin: 20px;
+}
+
+.add-link {
+    margin-top: 3px;
+    color: blue;
+    text-decoration: none;
+}
+.add-link:hover{
+    text-decoration: underline;
+    color: rgb(78, 78, 172);
+}
 
 
 /*progressTracking*/
