@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    background-color: #71af8d;
+    padding-top: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    margin: 5px;
+}
+
+/*navBar*/
+.navBar {
+    width: 100%;
+    display: flex;
+    border: 3px solid black;
+    box-shadow: 4px 4px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.navBar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navBar a{
+    padding:15px;
+    display:block;
+}
+
+.navBar a:hover{
+    background-color: beige;
+}
+.navBar li{
+    float: left;
+}
+.nav-link {
+    margin-right: 15px;
+}
+
+/*mainUserDisplay*/
+.profile-header {
+    display: flex;
+    align-items: center;
+}
+
+.pfp-logo{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid blue;
+    margin: 20px;
+}
+
+.add-link {
+    margin-top: 3px;
+    color: blue;
+}
+.add-link:hover{
+    text-decoration: underline;
+    color: rgb(78, 78, 172);
+}
+
+
+/*progressTracking*/
+.progression-box {
+    background-color: burlywood;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.streak-info {
+    vertical-align: baseline;
+    color: rgb(37, 1, 37);
+    font-size: 30px;
+    vertical-align: baseline;
+    padding-left: 20cm;
+}
